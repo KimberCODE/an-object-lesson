@@ -40,32 +40,41 @@ console.log(myPersevereCodeObj);
 
 // Part 2 - your own object.
 // Now make a new EMPTY object that represents yourself. You won't put any properties in the curly braces, but just like in part 1, add them in each step below using plain JavaScript statements.
-
+let self = {};
 
 // Add a `firstName` property and set it to a string.
-
+self.firstName = "Kimber";
 
 // Add a `lastName` property and set it to a string.
-
+self.lastName = "Mendoza";
 
 // Add a `fullName` property and set it to the name properties put together with a space string in the middle.
+self.fullName = self.firstName + " " +  self.lastName;
 
 
 // Add an `age` property and set it to a number.
-
+self.age = 37;
 
 // Add an address property and set it to an empty array.
-
+self.address = [];
 
 // Now push three strings into that array.
-
+self.address = ["544", "E. Vine Street", "Murfreesboro"];
+console.log(self);
 
 
 
 // Part 3 - setting key-value pairs in-line.
 // Now make a new object, but this time we'll pre-populate it, not set it in any lines below it. In other words, the properties should be set the same way I initially set the `myPersevereCodeObj` on line 1. It can be called whatever you want and can have whatever properties you want, as long as they include at least one string value, boolean value, number value, and array of something. The important thing here is: this should all be done within the curly brackets of the object, not below the place where the object is declared.
-
+let friends = {
+  honest: true,
+  number: 4,
+  names: ["Mady", "Arash", "Katie", "Morgan"],
+  favorite: "Mady",
+}
 
 
 
 // As a stretch goal, go back pre-populate the object with at least one property using a key name that CAN'T be a variable name. That would be anything with a space in it, or a dash, or starting with a number.
+friends["open-minded"] = "Whenever they want to be.";
+console.log(friends);
