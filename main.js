@@ -78,3 +78,5 @@ let friends = {
 // As a stretch goal, go back pre-populate the object with at least one property using a key name that CAN'T be a variable name. That would be anything with a space in it, or a dash, or starting with a number.
 friends["open-minded"] = "Whenever they want to be.";
 console.log(friends);
+
+//Done!
