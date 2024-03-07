@@ -19,13 +19,16 @@ myPersevereCodeObj.term = 1;
 console.log(myPersevereCodeObj);
 
 // Now add 1 to the value of your object's `term` property and put that new value back in your object's `term`.
+//incorrect:
 myPersevereCodeObj.term = myPersevereCodeObj.term + myPersevereCodeObj.term;
 console.log(myPersevereCodeObj);
+// correct:
+myPersevereCodeObj.term = myPersevereCodeObj + 1;
 
 // Now add a new property called `currentScore` and set it to 3.
 myPersevereCodeObj.currentScore = 3;
 console.log(myPersevereCodeObj);
-
+dtx
 // Now add a new property called `cumulativeScore` and set it to 50.
 myPersevereCodeObj.cumulativeScore = 50;
 console.log(myPersevereCodeObj);
